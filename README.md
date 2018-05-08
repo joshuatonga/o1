@@ -32,16 +32,15 @@ log({ doge: "good", cat: "slightly bad" }, { separator: ' - ' });
 
 ### log
 
-This function says hello.
+Will output a one line string of the keys and values of the passed object
+ in the format of `key: value, key:value...`.
 
 **Parameters**
 
--   `obj`  
--   `$1` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
-    -   `$1.separator`   (optional, default `', '`)
--   `name`  Some name to say hello for.
+-   `obj`  Object to convert to a one line log
+-   `config`   (optional, default `{}`)
 
-Returns **any** The hello.
+Returns **any** Converted one line log
 
 ## License
 

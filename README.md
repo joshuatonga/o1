@@ -13,9 +13,13 @@ From object to one liner & minimalistic log
 ## Usage
 
 ```js
-import myModule from "o1";
+import log from "o1";
 
-myModule();
+// doge: good, cat: slightly bad
+log({ doge: "good", cat: "slightly bad" });
+
+// doge: good - cat: slightly bad
+log({ doge: "good", cat: "slightly bad" }, { separator: ' - ' });
 ```
 
 ## API

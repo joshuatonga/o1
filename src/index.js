@@ -22,4 +22,5 @@ const log = (obj = {}, config = {}) => {
     .join(config.separator);
 };
 
+module.exports = log;
 export default log;

@@ -4,7 +4,7 @@
 [![NPM version](https://img.shields.io/npm/v/o1.svg?style=flat-square)](https://npmjs.org/package/o1)
 [![Build Status](https://img.shields.io/travis/hellojoshuatonga/o1/master.svg?style=flat-square)](https://travis-ci.org/hellojoshuatonga/o1) [![Coverage Status](https://img.shields.io/codecov/c/github/hellojoshuatonga/o1/master.svg?style=flat-square)](https://codecov.io/gh/hellojoshuatonga/o1/branch/master)
 
-From object to one liner &amp; minimalistic log 
+From object to one liner & minimalistic log 
 
 ## Install
 
@@ -24,17 +24,20 @@ myModule();
 
 #### Table of Contents
 
--   [sayHello](#sayhello)
+-   [log](#log)
 
-### sayHello
+### log
 
 This function says hello.
 
 **Parameters**
 
--   `name` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Some name to say hello for.
+-   `obj`  
+-   `$1` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
+    -   `$1.separator`   (optional, default `', '`)
+-   `name`  Some name to say hello for.
 
-Returns **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The hello.
+Returns **any** The hello.
 
 ## License
 

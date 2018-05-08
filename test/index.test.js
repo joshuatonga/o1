@@ -1,8 +1,14 @@
-import sayHello from "../src";
+import log from "../src";
 
-describe("sayHello", () => {
-  it("returns hello", () => {
-    expect(sayHello()).toBe("Hello, Haz!");
-    expect(sayHello("foo")).toBe("Hello, foo!");
+describe("log", () => {
+  it("returns one line log", () => {
+    const obj = {
+      hello: "world",
+      hi: "doge"
+    };
+    expect(log(obj)).toBe("hello: world, hi: doge");
+  });
+  it("returns empty string if args is undefined", () => {
+    expect(log()).toBe("");
   });
 });

@@ -4,7 +4,7 @@
 [![NPM version](https://img.shields.io/npm/v/o1.svg?style=flat-square)](https://npmjs.org/package/o1)
 [![Build Status](https://img.shields.io/travis/hellojoshuatonga/o1/master.svg?style=flat-square)](https://travis-ci.org/hellojoshuatonga/o1) [![Coverage Status](https://img.shields.io/codecov/c/github/hellojoshuatonga/o1/master.svg?style=flat-square)](https://codecov.io/gh/hellojoshuatonga/o1/branch/master)
 
-From object to one liner & minimalistic log 
+From object to one liner & minimalistic log.
 
 ## Install
 

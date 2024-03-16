@@ -15,11 +15,11 @@ From object to one liner & minimalistic log.
 ```js
 import log from "o1";
 
-// doge: good, cat: slightly bad
-log({ doge: "good", cat: "slightly bad" });
+// doge: good, cat: cute
+log({ doge: "good", cat: "cute" });
 
-// doge: good - cat: slightly bad
-log({ doge: "good", cat: "slightly bad" }, { separator: ' - ' });
+// doge: good - cat: cute
+log({ doge: "good", cat: "cute" }, { separator: ' - ' });
 ```
 
 ## API
